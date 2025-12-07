@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double tank = 20;
+    cout << "Quang duong thanh pho: " << tank * 23.5 << " dam" << endl;
+    cout << "Quang duong cao toc: " << tank * 28.9 << " dam" << endl;
+    return 0;
+}
