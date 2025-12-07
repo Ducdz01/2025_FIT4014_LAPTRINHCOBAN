@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Ten: Nguyen Minh Duc\nDia chi:ngo 17,Phu Luong,quan Ha Dong, TP. HN, 70000\nSdt: 0335967610\nNganh: Cong nghe thong tin" << endl;
+    return 0;
+}
