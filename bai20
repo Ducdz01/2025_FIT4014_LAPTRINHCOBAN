@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double height = 6, length = 100;
+    double area = height * length;
+    double totalAreaToPaint = area * 2; // 2 lớp sơn
+    double coveragePerGallon = 340;
+    double gallonsNeeded = totalAreaToPaint / coveragePerGallon;
+
+    cout << "So gallon son can thiet: " << gallonsNeeded << endl;
+    return 0;
+}
