@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double shares = 750;
+    double pricePerShare = 35.00;
+    double commissionRate = 0.02;
+
+    double stockAmount = shares * pricePerShare;
+    double commission = stockAmount * commissionRate;
+    double total = stockAmount + commission;
+
+    cout << "Tien co phieu: " << stockAmount << endl;
+    cout << "Tien hoa hong: " << commission << endl;
+    cout << "Tong thanh toan: " << total << endl;
+    return 0;
+}
