@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double v1 = 28, v2 = 32, v3 = 37, v4 = 24, v5 = 33;
+    double sum = v1 + v2 + v3 + v4 + v5;
+    double average = sum / 5;
+    cout << "Gia tri trung binh: " << average << endl;
+    return 0;
+}
