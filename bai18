@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int totalCustomers = 16500;
+    double energyDrinkers = totalCustomers * 0.15;
+    double citrusLovers = energyDrinkers * 0.58;
+
+    cout << "Khach mua nuoc tang luc: " << (int)energyDrinkers << endl;
+    cout << "Khach thich vi cam: " << (int)citrusLovers << endl;
+    return 0;
+}
