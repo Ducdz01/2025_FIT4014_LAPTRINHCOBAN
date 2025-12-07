@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double ny = 85, den = 88, pho = 106;
+    double rise = 1.02;
+    cout << "Nhiet do moi: NY: " << ny*rise << ", Denver: " << den*rise << ", Phoenix: " << pho*rise << endl;
+    return 0;
+}
