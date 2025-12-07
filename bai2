@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double totalRevenue = 8.6e6; // 8.6 triệu đô
+    double eastCoastPercent = 0.58;
+    double eastCoastSale = totalRevenue * eastCoastPercent;
+    cout << "Doanh thu du kien cua phong East Coast: " << eastCoastSale << " USD" << endl;
+    return 0;
+}
